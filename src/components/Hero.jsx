@@ -85,7 +85,7 @@ export default function Hero() {
 
         <div className="hero__eyebrow">
           <span className="hero__line" />
-          IT Professional &amp; Developer
+          IT Support Specialist &amp; Software Developer
           <span className="hero__line" />
         </div>
 

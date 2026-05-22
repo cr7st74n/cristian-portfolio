@@ -42,7 +42,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="contact__item-label">Email</span>
-                  <span className="contact__item-val">cristian@example.com</span>
+                  <span className="contact__item-val">cristian.gonzalez@cr7ston.com</span>
                 </div>
               </div>
 
@@ -54,7 +54,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="contact__item-label">Location</span>
-                  <span className="contact__item-val">New York / Remote</span>
+                  <span className="contact__item-val">New York / New Jersey</span>
                 </div>
               </div>
 
@@ -87,6 +87,7 @@ export default function Contact() {
           </div>
 
           {/* Right: form */}
+          
           <div className="contact__form-wrap">
             {status === 'sent' ? (
               <div className="contact__success">

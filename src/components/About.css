@@ -89,7 +89,7 @@
 }
 
 .about__avatar {
-  width: 100px; height: 100px;
+  width: 200px; height: 100px;
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   border-radius: 50%;
   display: flex;

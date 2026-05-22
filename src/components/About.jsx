@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './About.css';
+import Avatar from '../assets/pictures/avatar.JPG';
 
 const SKILLS = [
   { label: 'React / JavaScript', pct: 88 },
@@ -62,9 +63,15 @@ export default function About() {
             <div className="about__img-wrap">
               <div className="about__img-accent" />
               <div className="about__img-frame">
+
+                {/* {Edit the picture in this area} */}
                 <div className="about__avatar">
-                  <span>CG</span>
+                  <div className=''>
+                    <img src={Avatar} alt="" />
+                  </div>
+                  
                 </div>
+
               </div>
               <div className="about__img-tag">
                 <span className="about__img-tag-dot" />
@@ -91,7 +98,7 @@ export default function About() {
             <div className="about__details">
               <div className="about__detail">
                 <span className="about__detail-key">Location</span>
-                <span className="about__detail-val">New York / Remote</span>
+                <span className="about__detail-val">New York / New Jersey</span>
               </div>
               <div className="about__detail">
                 <span className="about__detail-key">Focus</span>

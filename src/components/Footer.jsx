@@ -21,7 +21,7 @@ export default function Footer() {
           </nav>
 
           <p className="footer__copy">
-            © {new Date().getFullYear()} Cristian Gonzalez. Built with React.
+            © {new Date().getFullYear()} Cristian Gonzalez Romero. Built with React.
           </p>
         </div>
       </div>
