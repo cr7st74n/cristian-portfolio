@@ -54,7 +54,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="contact__item-label">Location</span>
-                  <span className="contact__item-val">New York / New Jersey</span>
+                  <span className="contact__item-val">New York</span>
                 </div>
               </div>
 
