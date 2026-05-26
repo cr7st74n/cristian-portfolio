@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './About.css';
+import '../layout/About.css';
 import Avatar from '../assets/pictures/avatar.JPG';
 
 const SKILLS = [
@@ -98,7 +98,7 @@ export default function About() {
             <div className="about__details">
               <div className="about__detail">
                 <span className="about__detail-key">Location</span>
-                <span className="about__detail-val">New York / New Jersey</span>
+                <span className="about__detail-val">New York</span>
               </div>
               <div className="about__detail">
                 <span className="about__detail-key">Focus</span>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import './Hero.css';
+import '../layout/Hero.css';
 
 export default function Hero() {
   const canvasRef = useRef(null);
@@ -96,7 +96,7 @@ export default function Hero() {
 
         <p className="hero__tagline">
           Building responsive web apps with <em>React</em> and{' '}
-          <em>JavaScript</em> expertise.
+          <em>JavaScript</em>.
         </p>
 
         <div className="hero__stack">
@@ -130,7 +130,7 @@ export default function Hero() {
           <div className="hero__stat-divider" />
           <div className="hero__stat">
             <span className="hero__stat-num">IT</span>
-            <span className="hero__stat-label">Background</span>
+            <span className="hero__stat-label">Specialist</span>
           </div>
         </div>
       </div>

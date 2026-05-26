@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from 'react';
-import './Testimonials.css';
+import '../layout/Testimonials.css';
 
 const TESTIMONIALS = [
   {
     id: 1,
-    quote: "Cristian's attention to detail made our website both beautiful and easy to navigate.",
-    name: 'John Doe',
-    location: 'New York',
-    initials: 'JD',
+    quote: "Cristian was working with me a years ago and the time he was in school as well. A brilliant, positive and smart young gentleman who was very quiet and working hard to finish his prototype. I love him. Super recommended.",
+    name: 'Jerry Huang',
+    location: 'New Jersey',
+    initials: 'JH',
   },
   {
     id: 2,
-    quote: "His quick problem-solving skills saved us time and kept everything running smoothly.",
-    name: 'John Doe',
-    location: 'New York',
-    initials: 'JD',
+    quote: "I absolutely loved working with Cristian. He was always bringing fun new ideas to the table, while not making anyone else feel unheard. Being that we were working on a full stack app together, we each had our own role and responsibility to follow. Cristian easily stuck to his commitments, while also being happy to work with his colleagues if we bumped into any issues. I look forward to working with him again sometime! :)",
+    name: 'Gunnar Johnson',
+    location: 'Minnesota',
+    initials: 'GJ',
   },
   {
     id: 3,
-    quote: "Cristian's attention to detail and quick problem-solving made our project smooth and efficient from start to finish.",
-    name: 'Alex M.',
-    location: 'Remote',
-    initials: 'AM',
+    quote: "I have known Cristian for more than 7 years, during these years he has proven to be a committed, loyal, sincere, honest, responsible, collaborating person, a good friend and colleague, as well as a professional in all aspects of his life. He is self-taught and an excellent software development co-worker.",
+    name: 'Edwin Marquez',
+    location: 'Ecuador',
+    initials: 'EM',
   },
 ];
 
@@ -31,7 +31,7 @@ export default function Testimonials() {
   useEffect(() => {
     const timer = setInterval(() => {
       setActive(a => (a + 1) % TESTIMONIALS.length);
-    }, 5000);
+    }, 12000);
     return () => clearInterval(timer);
   }, []);
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import '../layout/Navbar.css';
 
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },

@@ -1,6 +1,6 @@
-# Cristian Gonzalez — Portfolio
+# Cristian Gonzalez Romero — Portfolio
 
-Personal portfolio website built with **React.js**, converted from a WordPress/Hostinger template into a clean, custom-coded React app ready for GitHub Pages or any static host.
+Personal portfolio website built with **React.js**, converted from a WordPress/Hostinger template into a clean, custom-coded React app ready for GitHub Pages.
 
 ## ✨ Features
 
@@ -27,13 +27,13 @@ Personal portfolio website built with **React.js**, converted from a WordPress/H
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Start dev server
-npm start
+pnpm start
 
 # Build for production
-npm run build
+pnpm run build
 ```
 
 ## 📁 Project Structure
@@ -57,14 +57,14 @@ src/
 
 ```bash
 # Install gh-pages
-npm install --save-dev gh-pages
+pnpm install --save-dev gh-pages
 
 # Add to package.json:
 #   "homepage": "https://<your-username>.github.io/<repo-name>",
 #   "predeploy": "npm run build",
 #   "deploy": "gh-pages -d build"
 
-npm run deploy
+pnpm run deploy
 ```
 
 ## 📬 Contact Form
