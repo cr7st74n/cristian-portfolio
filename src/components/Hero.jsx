@@ -136,7 +136,7 @@ export default function Hero() {
       </div>
 
       <div className="hero__scroll">
-        <span>scroll</span>
+        <span>Cr7ston</span>
         <div className="hero__scroll-line" />
       </div>
     </section>
